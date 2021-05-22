@@ -3,7 +3,7 @@
     transition: 1s;
     padding-top: 10px;
     padding-left: 10px;
-    height: 50vw;
+    height: 80vw;
     width: 30%;
     border-radius: 20%;
 
@@ -24,7 +24,37 @@
     background-color: #FFFFf5;
     border-radius: 25px;
     }
+    #pekin_anim1 {
+    position: absolute;
+    right: 20%;
+    height: 1%;
+    animation: tyf 5s ease infinite normal;
+}
+#pekin_anim2 {
+    position: absolute;
+    right: 70%;
+    height: 1%;
+    transform: scale(-1, 1);
+    animation: ty 5s ease infinite normal;
+}
+    nav {
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    background: #ffe9a8;
+    z-index: 2;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    border-radius: 25%;
+    transition: 1s;
     
+}
+
+    #photo3 {
+    width: 80px;
+    height: 80px;
+}
 }
 @media (min-width: 1024px) {
     nav:hover {
@@ -45,6 +75,10 @@
     background-image: url(https://cdn.pixabay.com/photo/2021/02/02/10/00/animal-foot-prints-5973327_960_720.jpg);
 
 }
+    #photo3 {
+    width: 45px;
+    height: 45px;
+}
     main {
     width: 70%;
     position: absolute;
@@ -52,7 +86,34 @@
     background-color: #FFFFf5;
     border-radius: 25px;
     }
+    #pekin_anim1 {
+    position: absolute;
+    right: 20%;
+    height: 2%;
+    animation: tyf 5s ease infinite normal;
 }
+#pekin_anim2 {
+    position: absolute;
+    right: 70%;
+    height: 2%;
+    transform: scale(-1, 1);
+    animation: ty 5s ease infinite normal;
+}
+    nav {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #ffe9a8;
+    z-index: 2;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    border-radius: 25%;
+    transition: 1s;
+    
+}
+}
+
 @keyframes tyf {
     from {
         right: 0%;
@@ -149,28 +210,13 @@ li {
     text-decoration: none;
     color: black;
 }
-#photo3 {
-    width: 45px;
-    height: 45px;
-}
+
 .photo4{
     height : 30vw;
     float: right; 
     margin-left: 20px; 
 }
-nav {
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    background: #ffe9a8;
-    z-index: 2;
-    overflow: hidden;
-    right: 0;
-    top: 0;
-    border-radius: 25%;
-    transition: 1s;
-    
-}
+
 h2{
     margin-left: 5px;
 }
@@ -201,16 +247,4 @@ article p {
     list-style-type: none;
     margin-top: 5px;
    }
-#pekin_anim1 {
-    position: absolute;
-    right: 20%;
-    height: 2%;
-    animation: tyf 5s ease infinite normal;
-}
-#pekin_anim2 {
-    position: absolute;
-    right: 70%;
-    height: 2%;
-    transform: scale(-1, 1);
-    animation: ty 5s ease infinite normal;
-}
+
