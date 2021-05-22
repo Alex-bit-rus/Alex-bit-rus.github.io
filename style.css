@@ -12,14 +12,14 @@
     body {
    
     font-family: 'Roboto', sans-serif; 
-    font-size: 35px;
+    font-size: 28px;
     
     background-image: url(https://cdn.pixabay.com/photo/2021/02/02/10/00/animal-foot-prints-5973327_960_720.jpg);
 
 }
     main {
     width: 90%;
-    position: absolute;
+    position: relative;
     left: 5%;
     background-color: #FFFFf5;
     border-radius: 25px;
@@ -55,6 +55,22 @@
     width: 80px;
     height: 80px;
 }
+    header {
+    width: 90%;
+    background-color: #FFFFf5;
+    position: relative;
+    left: 5%;;
+}
+    footer {
+    width: 90%;
+    background-color: #FFFFf5;
+    position: relative;
+    bottom: -505%;
+    left: 5%;
+    
+
+}
+
 }
 @media (min-width: 1024px) {
     nav:hover {
@@ -68,7 +84,7 @@
      background: #ffe9a8;
 } 
     body {
-   
+    height: 100%;
     font-family: 'Roboto', sans-serif; 
     font-size: 20px;
     
@@ -81,7 +97,7 @@
 }
     main {
     width: 70%;
-    position: absolute;
+    position: relative;
     left: 15%;
     background-color: #FFFFf5;
     border-radius: 25px;
@@ -112,8 +128,33 @@
     transition: 1s;
     
 }
+    #wrap {
+        height: 100%;
+    }
+    header {
+    width: 70%;
+    background-color: #FFFFf5;
+    position: relative;
+    left: 15%;
 }
+    footer {
+    width: 70%;
+    background-color: #FFFFf5;
+    position: relative;
+    bottom: 0;
+    left: 15%;
+    
 
+}
+}
+#foot {
+    text-decoration: none; 
+    list-style-type: none;
+    color: black;
+}
+#foot:hover {
+    font-weight: 900;
+}
 @keyframes tyf {
     from {
         right: 0%;
@@ -169,12 +210,7 @@
 
 
 
-header {
-    width: 70%;
-    background-color: #FFFFf5;
-    position: relative;
-    left: 15%;
-}
+
 
 .fon {
     width: 100vw;
