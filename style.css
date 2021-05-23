@@ -9,6 +9,11 @@
 
      background: #ffe9a8;
 } 
+    h1 {
+    
+    text-align: center;
+    font-size: 90px;
+}
     body {
    
     font-family: 'Roboto', sans-serif; 
@@ -83,6 +88,11 @@
 
      background: #ffe9a8;
 } 
+    h1 {
+    
+    text-align: center;
+    font-size: 50px;
+}
     body {
     height: 100%;
     font-family: 'Roboto', sans-serif; 
@@ -225,11 +235,7 @@
     
 }
 
-h1 {
-    
-    text-align: center;
-    font-size: 50px;
-}
+
 
 li a:hover {
     color: darkorange;
@@ -284,3 +290,17 @@ article p {
     margin-top: 5px;
    }
 
+a.idTop {
+ position: fixed; /*позиционирование кнопки фиксированное*/
+ z-index: 9999; /*отображаем поверх всех элементов*/
+ bottom: 0%; /*положение снизу*/
+ right: 0%; /*положение справа*/
+ background: #7db9e8; /*фон, можно указать любую картинку*/
+ opacity: .6; /*прозрачность*/
+ color: #fff; /*цвет текста*/
+ padding: 10px; /*внутренние отступы*/
+ margin: 5px 15px 15px 5px; /*внешние отступы*/
+}
+a.idTop:hover {
+ opacity: 1;
+}
