@@ -24,6 +24,7 @@
  color: #fff; /*цвет текста*/
  padding: 15px; /*внутренние отступы*/
  margin: 5px 15px 15px 5px; /*внешние отступы*/
+ text-decoration: none; 
 }
 a.idTop:hover {
  opacity: 1;
@@ -113,6 +114,7 @@ a.idTop:hover {
  color: #fff; /*цвет текста*/
  padding: 10px; /*внутренние отступы*/
  margin: 5px 15px 15px 5px; /*внешние отступы*/
+ text-decoration: none; 
 }
 a.idTop:hover {
  opacity: 1;
